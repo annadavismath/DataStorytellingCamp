@@ -1,0 +1,21 @@
+IF DATEPART('weekday', [Observed On]) = 1 THEN
+    "Sunday"
+ELSEIF 
+DATEPART('weekday', [Observed On]) = 2 THEN
+    "Monday"
+ELSEIF 
+DATEPART('weekday', [Observed On]) = 3 THEN
+    "Tuesday"
+ELSEIF 
+DATEPART('weekday', [Observed On]) = 4 THEN
+    "Wednesday"
+ELSEIF 
+DATEPART('weekday', [Observed On]) = 5 THEN
+    "Thursday"
+ELSEIF 
+DATEPART('weekday', [Observed On]) = 6 THEN
+    "Friday"
+ELSEIF 
+DATEPART('weekday', [Observed On]) = 7 THEN
+    "Saturday"
+END
